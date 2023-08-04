@@ -1,0 +1,27 @@
+.menu {
+  /* Style for menu button */
+  position: relative;
+  display: block;
+}
+
+.submenu {
+  /* Hide submenu */
+  display: none;
+}
+
+.menu:hover .submenu {
+  /* Show submenu on hover */
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 10px;
+  cursor: pointer;
+  background: grey;
+  width: 100px;
+}
+
+.submenu-item:hover {
+  background: lightgray;
+  cursor: pointer;
+  width: 120px;
+  position: relative;
+}
